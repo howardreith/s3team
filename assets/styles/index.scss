@@ -10,17 +10,30 @@
   text-align: center;
 }
 
+#headingWrapper {
+  text-align: center;
+}
+
 #girls {
   float: right;
   width: 50%;
   text-align: center;
+  background-color: pink;
+  height: 400px;
 }
 
 #boys {
   float: left;
   width: 50%;
+  height: 400px;
   text-align: center;
+  background-color: lightblue;
 }
-.ui-widget-header p, .ui-widget-content p {
-  margin: 0;
+
+#notPlaying {
+  text-align: center;
+  background-color: lightgreen;
+  margin: auto;
+  height: 300px;
+  clear: both;
 }
