@@ -3,8 +3,6 @@
 // user require with a reference to bundle the file and use it in this file
 // var example = require('./example');
 
-import 'bootstrap'
-
 // allows usage of new JS features
 require('babel-polyfill')
 
@@ -14,3 +12,9 @@ require('./assets/scripts/app.js')
 
 // styles
 require('./assets/styles/index.scss')
+require('jquery-ui-dist/jquery-ui');
+
+$( function() {
+    $( "#howie" ).draggable({ snap: true });
+    $( "#erin" ).draggable({ snap: true });
+  } );

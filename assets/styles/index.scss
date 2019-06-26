@@ -1,1 +1,14 @@
 @import '~bootstrap/scss/bootstrap';
+
+.draggable {
+  width: 90px;
+  height: 80px;
+  padding: 5px;
+  float: left;
+  margin: 0 10px 10px 0;
+  font-size: .9em;
+  border: 1px black solid;
+}
+.ui-widget-header p, .ui-widget-content p {
+  margin: 0;
+}
