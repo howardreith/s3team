@@ -15,6 +15,5 @@ require('./assets/styles/index.scss')
 require('jquery-ui-dist/jquery-ui');
 
 $( function() {
-    $( "#howie" ).draggable({ snap: true });
-    $( "#erin" ).draggable({ snap: true });
+    $( ".draggable" ).draggable({ snap: true });
   } );
